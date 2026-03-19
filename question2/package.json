@@ -1,0 +1,20 @@
+{
+  "name": "question2",
+  "version": "1.0.0",
+  "description": "Minimal repro for route-based sampling with tracesSampler",
+  "main": "repro-default.js",
+  "scripts": {
+    "default": "node repro-default.js",
+    "fixed": "node repro-fixed.js",
+    "traffic": "node generate-traffic.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@sentry/node": "^10.45.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
