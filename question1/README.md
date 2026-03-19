@@ -15,3 +15,5 @@ This folder contains a minimal repro for a truncated Sentry error message.
 
 ## Result
 In my test, the default run was truncated in Sentry, while the fixed run preserved the full message after increasing `maxValueLength`.
+
+I verified this by inspecting the stored event data in Sentry and comparing the default and fixed runs.
