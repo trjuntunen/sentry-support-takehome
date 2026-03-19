@@ -14,4 +14,4 @@ This folder contains a minimal repro for a truncated Sentry error message.
 - `npm run fixed`
 
 ## Result
-In my test, the default run was truncated in Sentry, while the fixed run preserved more of the message after increasing `maxValueLength`.
+In my test, the default run was truncated in Sentry, while the fixed run preserved the full message after increasing `maxValueLength`.
