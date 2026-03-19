@@ -1,4 +1,3 @@
-require("dotenv").config();
 const Sentry = require("@sentry/node");
 
 // Default config: sample all transactions equally

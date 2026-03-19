@@ -1,4 +1,3 @@
-require("dotenv").config();
 const Sentry = require("@sentry/node");
 
 // Lower sampling for /about
@@ -9,7 +8,6 @@ Sentry.init({
     if (name.includes("/about")) {
       return 0.01;
     }
-
     return inheritOrSampleWith(1.0);
   },
 });
